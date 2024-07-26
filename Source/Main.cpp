@@ -16,6 +16,7 @@ int main() {
     test('a', -1);
     test('Z', -1);
     test('?', 5);
+    test('A', 32);
 }
 
 char character(char start, int offset) {
