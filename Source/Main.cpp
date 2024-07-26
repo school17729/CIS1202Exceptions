@@ -28,7 +28,6 @@ char character(char start, int offset) {
 
     // Checks if the target character is not a letter or not the same case as the start
     if (!isalpha(end) || (isStartUpper != isupper(end) > 0)) {
-        cout << "end is " << end << endl;
         throw string("invalidRangeException");
     }
 
